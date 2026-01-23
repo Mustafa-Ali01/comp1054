@@ -1,0 +1,26 @@
+h1 {
+    font-family: "Libre Franklin", sans-serif;
+    columns: 3;
+}
+
+p {
+  column-count: 3;
+  column-gap: 2.5rem;
+  column-rule: 2px; 
+  text-align: center;
+
+}
+header p {
+    text-transform: uppercase;
+    text-emphasis: inherit;
+}
+h2 {
+column-span: all;
+  text-align: center;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 1.2rem;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding: 5px 0;
+  margin-bottom: 20px;
+}

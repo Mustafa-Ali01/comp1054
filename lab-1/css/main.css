@@ -1,18 +1,48 @@
+
+
+
+
 h1 {
-    font-family: "Libre Franklin", sans-serif;
-    columns: 3;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 10;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 0;
+  font-weight: bold;
+  border: 2px solid black;  
+  padding: 5px;             
+  display: inline-block;    
+  border-radius: 5px; 
+
 }
 
-p {
+
+
+main {
   column-count: 3;
-  column-gap: 2.5rem;
-  column-rule: 2px; 
-  text-align: center;
-
 }
+
+main p:first-child {
+  margin-top: 0;
+}
+
+#page {
+  width: 70%;
+  background-color: white;
+  margin: 50px auto;
+  padding: 5%;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.75);
+}
+
 header p {
     text-transform: uppercase;
     text-emphasis: inherit;
+    font-weight: bold;
+}
+
+main h4 {
+    font-weight: bold;
 }
 h2 {
 column-span: all;

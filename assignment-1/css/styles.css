@@ -21,9 +21,24 @@ body {
 /*  This is where i decided to create a archway of sorts to portray the Album Cover*/
 article {
     background: #000;
-    max-width: 400px;
+    max-width: 600px;
     padding: 100px 50px;
     margin: 40px 0;
     border-radius: 350px 350px 0 0; /* Creates the Arch */
-    border: 1px solid #ff0000;
+    /* The glow around the lyrics */
+    box-shadow: 0 -20px 100px rgba(44, 83, 100, 0.4),                0 0 40px rgba(32, 32, 64, 0.6);
+    text-align: center;
+}
+
+
+/* Footer Fine Print */
+footer {
+    margin-top: 100px;
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+footer a {
+    color: #00d4ff;
+    text-decoration: none;
 }

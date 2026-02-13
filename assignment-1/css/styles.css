@@ -3,6 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+
 }
 
 /* Global Styles (The Dark Background) */
@@ -17,3 +18,12 @@ body {
     padding: 50px 20px;
 }
 
+/*  This is where i decided to create a archway of sorts to portray the Album Cover*/
+article {
+    background: #000;
+    max-width: 400px;
+    padding: 300px 50px;
+    margin: 40px 0;
+    border-radius: 350px 350px 0 0; /* Creates the Arch */
+    border: 1px solid #ff0000;
+}

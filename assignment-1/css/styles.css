@@ -8,8 +8,8 @@
 
 /* Global Styles (The Dark Background) */
 body {
-    background-color: #0a0a0a; /* Deep Black */
-    color: #e0e0e0; /* Bone/Silver Text */
+    background-color: #0a0a0a; 
+    color: #e0e0e0; 
     font-family: 'Montserrat', sans-serif;
     line-height: 1.8;
     display: flex;
@@ -30,6 +30,22 @@ article {
     text-align: center;
 }
 
+
+
+/* (About/Artist) */
+/* This just seperates the infromation about the artist from the lyrics */
+section {
+    max-width: 600px;
+    margin-top: 60px;
+    border-top: 1px solid #333;
+    padding-top: 20px;
+}
+
+section h3 {
+    font-family: 'Cinzel', serif;
+    margin-bottom: 15px;
+    color: #888;
+}
 
 /* Footer Fine Print */
 footer {

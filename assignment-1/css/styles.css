@@ -1,0 +1,19 @@
+/*  Reset & Box Sizing */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles (The Dark Background) */
+body {
+    background-color: #0a0a0a; /* Deep Black */
+    color: #e0e0e0; /* Bone/Silver Text */
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+}
+

@@ -30,6 +30,23 @@ article {
     text-align: center;
 }
 
+/* Typography Styles */
+h1 {
+    font-family: 'Cinzel', serif;
+    font-size: 4rem;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 350;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #868686;
+}
 
 
 /* (About/Artist) */

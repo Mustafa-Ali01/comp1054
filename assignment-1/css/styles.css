@@ -48,6 +48,14 @@ h2 {
     color: #868686;
 }
 
+/* Styling the Chorus (Quote) */
+blockquote {
+    font-size: 1.4rem;
+    color: #00d5ff; 
+    margin: 40px 0;
+    font-weight: bold;
+    text-shadow: 0 0 15px rgba(0, 212, 255, 0.5);
+}
 
 /* (About/Artist) */
 /* This just seperates the infromation about the artist from the lyrics */

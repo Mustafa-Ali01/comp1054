@@ -28,3 +28,56 @@ body {
                     linear-gradient(90deg, rgba(0, 255, 204, 0.05) 1px, transparent 1px);
   background-size: 20px 20px;
 }
+/* =========================================
+   Typography
+   ========================================= */
+h1, h2, h3, h4 {
+  font-family: "Impact", "Arial Black", "Segoe UI Black", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 0;
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: 3rem;
+  color: #fcee0a;
+  text-shadow: 4px 4px 0px #ff0055;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  background-color: #00ffcc;
+  color: #0a0a0a;
+  display: inline-block;
+  padding: 0.2rem 0.5rem;
+  border: 2px solid #f0f0f0;
+  box-shadow: 4px 4px 0px #f0f0f0;
+}
+
+p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+a {
+  color: #00ffcc;
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid #00ffcc;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover, a:focus {
+  background-color: #00ffcc;
+  color: #0a0a0a;
+}
+
+blockquote {
+  margin: 1.5rem 0;
+  padding: 1.5rem;
+  border-left: 8px solid #fcee0a;
+  background-color: #1a1a1a;
+  font-style: italic;
+}

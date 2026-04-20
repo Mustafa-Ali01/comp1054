@@ -1,0 +1,30 @@
+/* ==========================================================================
+ * Style Stage Theme: "Cyber Brutalism" Midnight Sky
+ * Author: Mustafa Ali
+ * Description: A style that can only be best described as midnight sky
+ *
+ * Citations & References:
+ * - Guidelines & Base HTML structure adapted from the provided 
+ * stylestage.htm file.
+ * - CSS Grid Layout technique adapted from MDN Web Docs: 
+ * https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout
+ * ========================================================================== */
+
+/* =========================================
+   Reset & Base Styles
+   ========================================= */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0a0a0a;
+  color: #f0f0f0;
+  font-family: "Courier New", Courier, monospace;
+  line-height: 1.6;
+  background-image: linear-gradient(rgba(0, 255, 204, 0.05) 1px, transparent 1px),
+                    linear-gradient(90deg, rgba(0, 255, 204, 0.05) 1px, transparent 1px);
+  background-size: 20px 20px;
+}

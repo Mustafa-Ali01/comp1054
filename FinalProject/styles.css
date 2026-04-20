@@ -182,3 +182,73 @@ article section {
 .page-footer li:last-child {
   margin-bottom: 0;
 }
+
+/* =========================================
+   Desktop Layout (CSS Grid)
+   ========================================= */
+@media screen and (min-width: 900px) {
+  /* Scale typography for desktop */
+  h1 { font-size: 6rem; }
+  h2 { font-size: 3rem; }
+
+  /* Restructure the entire page flow using Grid on the body */
+  body {
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    grid-template-rows: auto auto 1fr auto auto;
+    grid-template-areas: 
+      "header header"
+      "nav nav"
+      "main profile"
+      "main styles"
+      "footer footer";
+    padding: 1.5rem;
+  }
+
+
+  header { 
+    grid-area: header; 
+    margin-bottom: 1.5rem;
+  }
+  nav { 
+    grid-area: nav; 
+    margin-bottom: 1.5rem;
+  }
+  main { 
+    grid-area: main; 
+    margin-right: 1.5rem;
+  }
+  .profile { 
+    grid-area: profile; 
+    margin-bottom: 1.5rem;
+  }
+  #styles { 
+    grid-area: styles; 
+    margin-bottom: 1.5rem;
+  }
+  .page-footer { 
+    grid-area: footer; 
+    margin-top: 0; /* Resetting the mobile margin */
+  }
+
+  /* Reset body padding to accommodate the layout */
+  body {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0;
+  }
+
+  /* Change footer list to horizontal and use side margins to replace gap */
+  .page-footer ul {
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .page-footer li {
+    margin: 0 1.5rem;
+  }
+}
